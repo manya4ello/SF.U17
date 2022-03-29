@@ -22,11 +22,9 @@ namespace SF.U17
             
 
             foreach (var account in accounts)
-             Calculator.CalculateInterest(account);
+             Calculator.execute(account);
 
             
-            foreach (var account in accounts)
-                account.CalculateInterest();
 
             
 
